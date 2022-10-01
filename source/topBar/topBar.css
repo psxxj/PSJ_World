@@ -1,0 +1,52 @@
+
+.inner *{
+    display: inline-flex;
+}
+
+.inner {
+    margin: 0% 2% 0% 2%;
+    background-color: azure;
+    justify-content: space-between;
+}
+
+h1 {
+    margin: 0%;
+    padding: 10px 15px;
+}
+
+a img {
+    height: 40px;
+}
+
+nav {
+    margin-left: 50px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+}
+
+ul li {
+    display: inline;
+    border-left: 1px solid #c0c0c0;
+    padding: 0px 20px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+ul li:first-child {
+    border-left: none;
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.header-util {
+    margin-right: 2%;
+    float: right;
+    padding: 10px 0px;
+}

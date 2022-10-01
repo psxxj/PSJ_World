@@ -1,16 +1,20 @@
 import React from "react"
-import ReactDom from "react-dom"
+import ReactDom from "react-dom/client"
+import './foreMost.css'
+import TopBar from "./topBar/topBar.js"
 
 function RootComponent() {
   return (
     <div>
-      <h1>Psxxj World</h1>
-      <p>Setting---</p>
+      <TopBar />
+      <p></p>
     </div>
   )
 }
 
-ReactDom.render(<RootComponent />, document.querySelector("#source"))
+const root = ReactDom.createRoot(document.querySelector("#source"));
+root.render(<RootComponent />);
+
 if (module.hot) {
   module.hot.accept()
 }
