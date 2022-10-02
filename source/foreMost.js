@@ -2,12 +2,13 @@ import React from "react"
 import ReactDom from "react-dom/client"
 import './foreMost.css'
 import TopBar from "./topBar/topBar.js"
+import MainCover from "./mainCover/mainCover.js"
 
 function RootComponent() {
   return (
     <div>
       <TopBar />
-      <p></p>
+      <MainCover />
     </div>
   )
 }
