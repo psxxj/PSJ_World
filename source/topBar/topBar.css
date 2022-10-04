@@ -1,14 +1,17 @@
+header {
+    background-color: rgb(254, 254, 254);
+}
+
 header > .inner *{
     display: inline-flex;
 }
 
 header > .inner {
     margin: 0% 2% 0% 2%;
-    background-color: rgb(254, 254, 254);
     justify-content: space-between;
 }
 
-h1 {
+header h1 {
     margin: 0%;
     padding: 10px 15px;
 }
