@@ -30,6 +30,7 @@ const TopBar = () => {
                 </nav>
                 <div className="header-util">
                     <a href="javascript:void(0);">
+                    <img src='./image/cv_black.png' alt="CV" />
                     <img src="./image/global.svg" alt="LANGUAGE" />
                     </a>
                 </div>
