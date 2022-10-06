@@ -1,5 +1,4 @@
-.swiper-slide .inner {
-    background-color:rgb(94, 154, 221);
+.swiper-slide .info {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -8,7 +7,16 @@
     padding-right: 10%;
 }
 
-.inner .text-area {
+.ai, .back {
+    background-color:darkslateblue;
+}
+
+.front, .strength {
+    background-color:seagreen;
+}
+
+
+.info .text-area {
     line-height: 1.6;
     color: ghostwhite;
 }

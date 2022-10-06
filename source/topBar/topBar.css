@@ -1,5 +1,18 @@
 header {
+    transition: 0.5s ease;
+}
+
+.transBar *{
+    color: white;
+    transition: color 1s;
+}
+.whiteBar {
     background-color: rgb(254, 254, 254);
+}
+
+.noneBar {
+    position: fixed;
+    top: -90px;
 }
 
 header > .inner {
@@ -53,7 +66,7 @@ ul li a {
 
 ul li a:hover {
     font-weight: 900;
-    color: #030203;
+    color: rgb(128, 128, 128);
 }
 
 .header-util {
