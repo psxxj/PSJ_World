@@ -9,6 +9,10 @@
 
 <body style="margin: 0px;">
     <div id="source"></div>
-    <script src="/bundled.js"></script>
+    <script src="/bundled.js">
+    </script>
+    <script>
+        CSS.paintWorklet.addModule('./canvas/trapezoid.js');
+    </script>
 </body>
 </html>

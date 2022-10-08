@@ -1,6 +1,6 @@
 import React from "react"
 import { Swiper, SwiperSlide } from 'swiper/react' 
-import { Navigation, Pagination, Scrollbar, Autoplay } from "swiper"
+import { Navigation, Pagination, Autoplay } from "swiper"
 import 'swiper/css';
 import './visualSection.css'
 
@@ -26,12 +26,11 @@ const VisualWrapper = () => {
     return (
         <div className= "swiper-vertical">
             <Swiper
-            modules={[Navigation, Pagination, Scrollbar, Autoplay]}
-            pagination={{clickable: true, type: "bullets"}}
+            modules={[Navigation, Pagination, Autoplay]}
+            pagination={{type: "fraction",}}
             scrollbar={{draggable: true}}
             direction= 'horizontal'
             loop='true'
-            autoplay={{delay: 4000, disableOnInteraction: false}}
             >
                 <SwiperSlide><VisualElement Name = 'info ai' Title1 = '함께 더 이야기하고 싶은 AI를 만드는'
                 Title2= "인재를 꿈꿉니다" Image = '미정'/></SwiperSlide>
@@ -47,3 +46,5 @@ const VisualWrapper = () => {
 }
 
 export default VisualWrapper;
+
+// autoplay={{delay: 4000, disableOnInteraction: false}}
