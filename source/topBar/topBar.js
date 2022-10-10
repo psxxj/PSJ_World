@@ -20,7 +20,7 @@ function TopBar() {
     }, []);
     const handleScroll = () => {
         let directionScroll = (window.scrollY - beforeScrollY > 0);
-        window.scrollY === 0 ? setBarMode(0) : (directionScroll ? setBarMode(1) : setBarMode(2));
+        window.scrollY < 200 ? setBarMode(0) : (directionScroll ? setBarMode(1) : setBarMode(2));
         beforeScrollY = window.scrollY;
         }
 

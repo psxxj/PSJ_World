@@ -15,7 +15,7 @@
 
 @media not screen and (min-width: 1200px) {
     .swiper-slide .info {
-        background-color: var(--visual-color);
+        background-color: rgb(78, 78, 78);
     }
 }
 
@@ -41,7 +41,7 @@
 } 
 
 
-.info .text-area {
+.text-area {
     line-height: 1.6;
     color: ghostwhite;
 }
@@ -60,10 +60,8 @@ canvas {
     z-index: 1000;
 }
 
-.swiper-pagination {
-    position:absolute;
-    right: 10%;
-    top: 80%;
-    z-index: 1000;
+.pagination-area {
+    margin: 5% 0px 0px 100px;
     color: white;
+    font-size: 20px;
 }
