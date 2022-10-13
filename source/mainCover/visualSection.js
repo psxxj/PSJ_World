@@ -32,8 +32,6 @@ const VisualWrapper = () => {
             <Swiper
             pagination={{el: ".pagination-area", clickable: "true", type: "custom",
             renderCustom: function(swiper, current, total){
-                
-
                 return current + " | " + total;
             }}}
             direction= 'horizontal'

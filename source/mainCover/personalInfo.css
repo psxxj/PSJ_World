@@ -1,0 +1,11 @@
+.personal-info h2 {
+    padding: 7% 0;
+    font-size: 2.5rem;
+    font-weight: 600;
+    text-align: center;
+    display: block;
+}
+
+.personal-info h2 > div {
+    padding: 20px 0;
+}

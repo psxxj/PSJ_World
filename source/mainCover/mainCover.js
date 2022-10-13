@@ -1,14 +1,16 @@
 import React from "react"
 import './mainCover.css'
 import VisualWrapper from "./visualSection"
-import SimpleInfo from "./simpleInfo"
+import SimpleSkill from "./simpleSkill"
+import PersonalInfo from "./personalInfo"
 
 
 const MainCover = () => {
     return (
         <div className= "main-cover">
             <VisualWrapper />
-            <SimpleInfo />
+            <PersonalInfo />
+            <SimpleSkill />
         </div>
     )
 }
