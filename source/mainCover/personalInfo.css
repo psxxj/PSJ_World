@@ -9,3 +9,14 @@
 .personal-info h2 > div {
     padding: 20px 0;
 }
+
+.personal-info .photo-area {
+    height: 100%;
+    width: 100%;
+    justify-items: center;
+    background-color: rgb(134, 168, 65);
+}
+
+.personal-info .door {
+    background-color: azure;
+}

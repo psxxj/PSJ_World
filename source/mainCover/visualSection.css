@@ -25,7 +25,7 @@
 }
 
 .front {
-    background-image: paint(trapezoid), url("../image/info-ai.jpg");
+    background-image: paint(trapezoid), url("../image/info-front.jpg");
     --visual-color: DarkMagenta;
 }
 

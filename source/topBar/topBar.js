@@ -43,7 +43,7 @@ function TopBar() {
                     </ul>
                 </nav>
                 <div className="header-util">
-                    <a href="javascript:void(0);">
+                    <a href="https://psxxj.notion.site/Developer-1922eb34a91347ea829c3a5ceb6c901d" target="_blank">
                     <img src= {barMode === 0 ? "./image/cv_grey.png" : "./image/cv_black.png"} alt="CV" />
                     </a>
                 </div>

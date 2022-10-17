@@ -13,9 +13,16 @@ const PersonalInfo = () => {
         <div className= "personal-info">
             <h2 className='title-area'>
                 <TitleText text = "필요성을 느끼고 행동하며" />
-                <TitleText text = "세상의 복잡함을 단순함으로 그려내고 싶은," />
+                <TitleText text = "세상의 복잡함을 단순함으로 그려내고 싶은" />
                 <TitleText text = "프론트엔드 개발자, 박성준" />
             </h2>
+            <div className='photo-area'>
+                <div className = "door lft">
+                </div>
+                <div className = "door rht">
+                </div>
+            </div>
+
         </div>
     );
 }
